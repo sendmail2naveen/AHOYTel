@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AHOYTEL.API", "AHOYTEL.API\AHOYTEL.API.csproj", "{62C0FC36-DC18-45AF-91CC-AFE618824D29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{0B7DC789-17ED-4C3A-B42F-AD2D1DFB37D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AHOYTEL.LIB.Models", "..\AHOY.LIB.Interfaces\AHOYTEL.LIB.Models.csproj", "{864417B4-B380-4319-9DF9-C9E8BEA42B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AHOYTel.LIB.Application", "..\AHOYTel.LIB.Application\AHOYTel.LIB.Application.csproj", "{71FEE181-7313-424E-AA5A-68C6B552BC3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBLayer", "DBLayer", "{0957178E-605F-41E9-B08C-7CB9CC0A28CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AHOYTel.Repository.DB", "..\AHOYTel.Repository.DynamoDB\AHOYTel.Repository.DB.csproj", "{4E11ED56-0091-4EA8-B384-CCF25B663B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C0FC36-DC18-45AF-91CC-AFE618824D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C0FC36-DC18-45AF-91CC-AFE618824D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C0FC36-DC18-45AF-91CC-AFE618824D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C0FC36-DC18-45AF-91CC-AFE618824D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864417B4-B380-4319-9DF9-C9E8BEA42B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864417B4-B380-4319-9DF9-C9E8BEA42B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864417B4-B380-4319-9DF9-C9E8BEA42B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864417B4-B380-4319-9DF9-C9E8BEA42B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FEE181-7313-424E-AA5A-68C6B552BC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FEE181-7313-424E-AA5A-68C6B552BC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FEE181-7313-424E-AA5A-68C6B552BC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FEE181-7313-424E-AA5A-68C6B552BC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E11ED56-0091-4EA8-B384-CCF25B663B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E11ED56-0091-4EA8-B384-CCF25B663B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E11ED56-0091-4EA8-B384-CCF25B663B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E11ED56-0091-4EA8-B384-CCF25B663B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{864417B4-B380-4319-9DF9-C9E8BEA42B97} = {0B7DC789-17ED-4C3A-B42F-AD2D1DFB37D2}
+		{71FEE181-7313-424E-AA5A-68C6B552BC3A} = {0B7DC789-17ED-4C3A-B42F-AD2D1DFB37D2}
+		{4E11ED56-0091-4EA8-B384-CCF25B663B71} = {0957178E-605F-41E9-B08C-7CB9CC0A28CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6E12684-2C6B-4DEF-B7AD-444F141EC52D}
+	EndGlobalSection
+EndGlobal
